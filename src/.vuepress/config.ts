@@ -6,7 +6,7 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "插件文档中心",
+  title: "文档中心",
   description: "",
 
   theme,
