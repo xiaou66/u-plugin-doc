@@ -3,7 +3,7 @@ title: 服务接口
 ---
 ::: info 说明
 为了提供更好的用户体验，我们特意为本插件开放了对外服务接口，以便更多的软件和插件能够与之兼容使用。
-提供服务建议使用提供的 [互联 SDK](https://github.com/xiaou66/interconnect) 对接
+建议使用提供的 [互联 SDK](https://github.com/xiaou66/interconnect) 对接
 :::
 
 
