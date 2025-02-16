@@ -17,7 +17,7 @@ const pipPath = path.join(utools.getPath('userData'), '.pip');
 try {
   const client = new ServiceClient(require('net'),
     path.join(pipPath, 'picture-bed-plus'),
-    '当前软件/插件名');
+    '当前软件或插件名');
 }catch (e) {
   // 链接失败, 可以做出提醒或者使用跳转「图床 Plus」插件上传
 }
