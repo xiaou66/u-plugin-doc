@@ -2,8 +2,7 @@
 title: Chevereto 配置
 ---
 ::: info 说明
-[开源地址](https://v4-docs.chevereto.com) 一个使用 PHP 语言，采用 Laravel 框架开发的一款 Web 图片管理程序，中文名：兰空图床
-并不是一定要自建, 也有自建后提供一些服务
+[开源地址](https://v4-docs.chevereto.com) 一个使用 PHP 语言，采用 Laravel 框架开发的一款 Web 图片管理程序 并不是一定要自建, 也有自建后提供一些服务
 :::
 
 ## 已知图床地址
