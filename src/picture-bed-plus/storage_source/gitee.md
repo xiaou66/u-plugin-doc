@@ -4,7 +4,11 @@ title: Gitee 配置
 ::: info 说明
 Gitee 作为图床并很不是很建议.
 1. 必须是开源的仓库，会导致所有人都可以找到你的仓库
-2. 也不稳定取决于 Gitee 官方是否会检查
+2. 稳定取决于 Gitee 官方是否会检查
+3. 使用 Gitee 外链站点必须将 referrer 设置为 no-referrer 才可以正常显示文件
+```html
+ <meta name="referrer" content="no-referrer">
+```
 :::
 
 ## 配置
