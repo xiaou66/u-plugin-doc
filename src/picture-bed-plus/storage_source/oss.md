@@ -8,6 +8,7 @@ title: 阿里 OSS 配置
 
 ### 开通服务
 
+新人可以先领取打折优惠券[链接](https://www.aliyun.com/minisite/goods?userCode=e16qioi6)
 开通 OSS 对象存储服务，[网址](https://www.aliyun.com/product/oss)：（新人免费试用3个月）
 
 ![](img/oss/oss-01.png)
