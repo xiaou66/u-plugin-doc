@@ -1,5 +1,6 @@
 ---
 title: 快捷操作
+index: false
 ---
 
 :::info 说明

@@ -1,5 +1,7 @@
 ---
 title: 存储源
+dir:
+  order: 1
 ---
 
 ::: info 说明
