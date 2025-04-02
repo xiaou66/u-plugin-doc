@@ -45,7 +45,7 @@ node -v
 3. 安装命令行工具
 
 ```shell
-npm install @xiaou66/picture-command
+npm install -g @xiaou66/picture-command
 ```
 
 4. 检查安装是否成功
