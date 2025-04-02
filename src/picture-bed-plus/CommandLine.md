@@ -1,8 +1,10 @@
 ---
 title: 命令行工具
 ---
+
 :::info 描述
 使用命令行工具调用服务接口上传文件并返回链接地址
+命令行工具开源地址: [GitHub](https://github.com/xiaou66/utools-picture-command)
 :::
 
 ## 环境要求 
