@@ -9,6 +9,11 @@ title: AList
 
 ![](./img/alist/alist-01.png)
 
-2. 111
+2. 知道挂载点
 
 ![](./img/alist/alist-02.png)
+
+3. 在 图床 Plus 中配置
+
+![](./img/alist/alist-03.png)
+
