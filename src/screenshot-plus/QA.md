@@ -37,3 +37,17 @@ title: 常见问题
 1. 需要在使用「截图工具」指令进入配置页面，然后进入「数据管理」菜单, 最后单击清理数据
 
 ![](./image/qa-03.webp)
+
+## 在 windows 上使用截图视频暂停功能左上角出现播放状态框怎么去掉？
+
+![img.png](image/pause-video-03.png)
+
+1. 在游览器中输入 `chrome://flags/#hardware-media-key-handling` 输入到 chrome 的地址栏里,(其他浏览器应该同理)
+
+![img.png](image/pause-video-01.png)
+
+2. 把黄色里的 Hardware Media Key Handling，后面选项改为 disabled
+
+![img.png](image/pause-video-02.png)
+
+3. 重启浏览器，就没有了，想要重新启用，调回 Enabled 即可。
