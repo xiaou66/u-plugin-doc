@@ -6,7 +6,8 @@ title: Chevereto 配置
 :::
 
 ## 已知图床地址
-- [imagehub](https://www.imagehub.cc/)
+- [imagehub](https://www.imagehub.cc/) 已经不能通过 api 上传了
+- [黑猫图床](https://img.hmvod.cc) API URL: https://img.hmvod.cc/api/1/upload
 
 ## 配置
 
