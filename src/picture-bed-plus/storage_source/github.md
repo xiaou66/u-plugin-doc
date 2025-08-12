@@ -13,6 +13,7 @@ title: GitHub 配置
 1. add .gitignore 配置可以随便选择一个模板
 2. 仓库可见性 (Choose visibility) 必须是 Public
 
+
 ![](img/github/github-02.png)
 
 
@@ -26,6 +27,7 @@ title: GitHub 配置
 3. Repository access 选择 only select repositories 选择这项并选择刚刚的仓库
 
 ![](img/github/github-01.png)
+
 ![](img/github/github-04.png)
 
 将获取到令牌填写到插件的 token 配置中
@@ -44,7 +46,7 @@ https://fastly.jsdelivr.net/gh/{project}@{branch}/{uploadPath}
 #### 变量说明
 
 ::: info
-使用变量一定要用 {} 包裹 比如 {project}
+使用变量一定要用 {} 包裹 比如 \{project\}
 :::
 
 | 变量         | 描述   |
