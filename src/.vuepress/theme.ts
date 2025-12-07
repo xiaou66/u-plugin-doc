@@ -9,7 +9,6 @@ export default hopeTheme({
   author: {
     name: "Mr.xiaou"
   },
-
   logo: "/logo.png",
 
   repo: "xiaou66/u-plugin-doc",
@@ -23,8 +22,8 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "默认页脚",
-  displayFooter: true,
+  footer: "",
+  displayFooter: false,
 
   // 加密配置
   encrypt: {
@@ -186,4 +185,6 @@ export default hopeTheme({
     //   },
     // },
   },
+}, {
+  custom: true
 });

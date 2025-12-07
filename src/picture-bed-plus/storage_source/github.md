@@ -20,13 +20,18 @@ title: GitHub 配置
 
 ## 获取账号令牌
 
-[获取令牌地址](https://github.com/settings/tokens)
+[获取令牌地址](https://github.com/settings/personal-access-tokens)
+
+![](img/github/github-01.png)
 
 1. token name 填写一个对 token 备注即可用于区分 token
 2. Expiration 过期时间可以根据需求填写，长时间使用可以选择 No expiration
 3. Repository access 选择 only select repositories 选择这项并选择刚刚的仓库
+4. 选择基本仓库访问权限
+   - Commit statuses 权限 Read and write
+   - Contents 权限 Read and write
 
-![](img/github/github-01.png)
+
 
 ![](img/github/github-04.png)
 
