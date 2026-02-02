@@ -4,4 +4,5 @@ export default navbar([
   "/picture-bed-plus/",
   "/screenshot-plus/",
   "/about/",
+  "/todo/"
 ]);
