@@ -1,9 +1,11 @@
 ---
-title: 兔灵优秀待办
+title: 优秀待办
 ---
 
 ### 简介
-![img.png](image/img.png)
+
+![img.png](image/cover.png)
+
 重新定义任务管理，让效率触手可及
 
 一款基于 UTools 平台的智能任务管理插件，用极致的体验帮你掌控时间、释放生产力。

@@ -1,0 +1,96 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e6]:
+    - complementary [ref=e7]:
+      - generic [ref=e11]:
+        - generic [ref=e13]:
+          - img "logo" [ref=e15]
+          - generic [ref=e16]: 优秀待办
+        - menubar [ref=e17]:
+          - menuitem [ref=e18] [cursor=pointer]
+          - menuitem [ref=e20] [cursor=pointer]
+          - menuitem [ref=e22] [cursor=pointer]
+          - menuitem [ref=e24] [cursor=pointer]
+          - menuitem [ref=e26] [cursor=pointer]
+          - menuitem [ref=e28] [cursor=pointer]
+          - menuitem [ref=e30] [cursor=pointer]
+          - menuitem [ref=e32] [cursor=pointer]
+          - menuitem [ref=e34] [cursor=pointer]
+          - menuitem [ref=e36] [cursor=pointer]
+    - main [ref=e38]:
+      - generic [ref=e39]:
+        - generic [ref=e43] [cursor=pointer]: 加入用户群
+        - generic [ref=e47]:
+          - generic [ref=e51]:
+            - generic [ref=e52]:
+              - generic [ref=e53] [cursor=pointer]:
+                - generic [ref=e55]: 全部
+                - generic [ref=e56]: "0"
+              - generic [ref=e57] [cursor=pointer]:
+                - img [ref=e59]:
+                  - generic [ref=e61]: "5"
+                - generic [ref=e62]: 今天
+                - generic [ref=e63]: "0"
+              - generic [ref=e64] [cursor=pointer]:
+                - generic [ref=e66]: 三日规
+                - generic [ref=e67]: "0"
+              - generic [ref=e68] [cursor=pointer]:
+                - generic [ref=e70]: 未分组
+                - generic [ref=e71]: "0"
+            - generic [ref=e74] [cursor=pointer]:
+              - generic [ref=e77]: 分组
+              - generic [ref=e78]:
+                - generic "新建文件夹" [ref=e79]
+                - generic "新建分组" [ref=e81]
+            - generic [ref=e88] [cursor=pointer]: 筛选器
+            - generic [ref=e97] [cursor=pointer]: 标签
+            - generic [ref=e101]:
+              - separator [ref=e102]
+              - generic [ref=e103]:
+                - generic [ref=e107] [cursor=pointer]: 已完成
+                - generic [ref=e111] [cursor=pointer]: 已删除
+          - generic [ref=e113]:
+            - generic [ref=e114]:
+              - generic [ref=e115]:
+                - generic [ref=e120]: 今天
+                - separator [ref=e121]
+                - generic [ref=e123]: 让每一天都有成就感
+              - generic [ref=e125]:
+                - button [ref=e126] [cursor=pointer]
+                - button [ref=e129] [cursor=pointer]
+                - button [ref=e132] [cursor=pointer]
+                - button [ref=e135] [cursor=pointer]
+                - button [ref=e138] [cursor=pointer]
+            - generic [ref=e144]:
+              - generic [ref=e147]:
+                - paragraph [ref=e150]: 回车创建
+                - generic [ref=e152]:
+                  - generic [ref=e154]: 今天
+                  - button [ref=e157] [cursor=pointer]
+                  - button [ref=e160] [cursor=pointer]
+              - generic [ref=e166]:
+                - button "紧急 (0)" [ref=e169] [cursor=pointer]:
+                  - generic [ref=e172]:
+                    - generic [ref=e173]: 紧急
+                    - generic [ref=e174]: (0)
+                  - img [ref=e176]
+                - button "高 (0)" [ref=e180] [cursor=pointer]:
+                  - generic [ref=e183]:
+                    - generic [ref=e184]: 高
+                    - generic [ref=e185]: (0)
+                  - img [ref=e187]
+                - button "中 (0)" [ref=e191] [cursor=pointer]:
+                  - generic [ref=e194]:
+                    - generic [ref=e195]: 中
+                    - generic [ref=e196]: (0)
+                  - img [ref=e198]
+                - button "低 (0)" [ref=e202] [cursor=pointer]:
+                  - generic [ref=e205]:
+                    - generic [ref=e206]: 低
+                    - generic [ref=e207]: (0)
+                  - img [ref=e209]
+        - generic [ref=e211]: © 2026 [xiaou]。保留所有权利
+  - generic [ref=e212]:
+    - generic "Toggle devtools panel" [ref=e213] [cursor=pointer]:
+      - img [ref=e214]
+    - generic "Toggle Component Inspector" [ref=e219] [cursor=pointer]:
+      - img [ref=e220]

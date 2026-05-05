@@ -1,0 +1,192 @@
+- generic [ref=e2]:
+  - link "跳至主要內容" [ref=e3] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e4]:
+    - banner [ref=e5]:
+      - link "带我回家" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - text: 文档中心
+      - navigation [ref=e9]:
+        - link "图床工具 Plus" [ref=e11] [cursor=pointer]:
+          - /url: /picture-bed-plus/
+        - link "截图工具 Plus" [ref=e13] [cursor=pointer]:
+          - /url: /screenshot-plus/
+        - link "优秀待办" [ref=e15] [cursor=pointer]:
+          - /url: /workbench/
+        - link "关于我们" [ref=e17] [cursor=pointer]:
+          - /url: /about/
+      - generic [ref=e18]:
+        - link "GitHub" [ref=e20] [cursor=pointer]:
+          - /url: https://github.com/xiaou66/u-plugin-doc
+          - img "github icon" [ref=e21]
+        - button "auto icon" [ref=e24] [cursor=pointer]:
+          - img "auto icon" [ref=e25]
+    - complementary [ref=e29]:
+      - list [ref=e30]:
+        - listitem [ref=e31]:
+          - link "优秀待办" [ref=e32] [cursor=pointer]:
+            - /url: /workbench/
+        - listitem [ref=e33]:
+          - generic [ref=e34]:
+            - button "待办" [ref=e35] [cursor=pointer]:
+              - generic [ref=e36]: 待办
+            - list [ref=e38]:
+              - listitem [ref=e39]:
+                - link "待办" [ref=e40] [cursor=pointer]:
+                  - /url: /workbench/todo/
+              - listitem [ref=e41]:
+                - link "任务列表" [ref=e42] [cursor=pointer]:
+                  - /url: /workbench/todo/task-list.html
+              - listitem [ref=e43]:
+                - link "视图模式" [ref=e44] [cursor=pointer]:
+                  - /url: /workbench/todo/view-mode.html
+              - listitem [ref=e45]:
+                - link "分组、标签与筛选" [ref=e46] [cursor=pointer]:
+                  - /url: /workbench/todo/group-tag-filter.html
+              - listitem [ref=e47]:
+                - link "提醒、重复任务与子任务" [ref=e48] [cursor=pointer]:
+                  - /url: /workbench/todo/remind-repeat-subtask.html
+              - listitem [ref=e49]:
+                - link "待办小组件" [ref=e50] [cursor=pointer]:
+                  - /url: /workbench/todo/widget.html
+    - main [ref=e51]:
+      - navigation [ref=e52]:
+        - list [ref=e53]:
+          - listitem [ref=e54]:
+            - link "项目主页" [ref=e55] [cursor=pointer]:
+              - /url: /
+              - text: 项目主页
+          - listitem [ref=e56]:
+            - text: /
+            - link "优秀待办" [ref=e57] [cursor=pointer]:
+              - /url: /workbench/
+          - listitem [ref=e58]:
+            - text: /
+            - link "待办":
+              - /url: /workbench/todo/
+      - generic [ref=e59]:
+        - heading "待办" [level=1] [ref=e60]
+        - generic [ref=e61]:
+          - generic "作者🖊" [ref=e62] [cursor=pointer]:
+            - img "author icon" [ref=e63]
+            - generic [ref=e66]: Mr.xiaou
+            - text: 作者🖊
+          - generic "阅读时间⌛" [ref=e67] [cursor=pointer]:
+            - img "timer icon" [ref=e68]
+            - generic [ref=e70]: 大约 2 分钟
+            - text: 阅读时间⌛
+        - separator [ref=e71]
+      - complementary [ref=e73]:
+        - generic [ref=e74]: 此页内容
+        - list [ref=e76]:
+          - listitem [ref=e77]:
+            - link "你可以用它做什么" [ref=e78] [cursor=pointer]:
+              - /url: "#你可以用它做什么"
+          - listitem [ref=e79]:
+            - link "推荐阅读路径" [ref=e80] [cursor=pointer]:
+              - /url: "#推荐阅读路径"
+          - listitem [ref=e81]:
+            - link "功能入口" [ref=e82] [cursor=pointer]:
+              - /url: "#功能入口"
+          - listitem [ref=e83]:
+            - link "常用分类" [ref=e84] [cursor=pointer]:
+              - /url: "#常用分类"
+      - generic [ref=e86]:
+        - paragraph [ref=e87]: 待办模块面向需要持续管理任务的用户。读完本节后，你可以完成从创建任务、整理任务、切换视图到使用小组件查看任务的基本流程。
+        - paragraph [ref=e88]: 本文只说明“优秀待办”中的待办使用方式，不包含笔记、网窝、启动台等其他工作台模块。
+        - figure [ref=e89]:
+          - img [ref=e90]
+        - heading "你可以用它做什么" [level=2] [ref=e91]:
+          - link "你可以用它做什么" [ref=e92] [cursor=pointer]:
+            - /url: "#你可以用它做什么"
+        - list [ref=e93]:
+          - listitem [ref=e94]: 记录今天、近期或项目中的待办事项。
+          - listitem [ref=e95]: 用分组（承载任务的项目或主题空间）整理不同项目。
+          - listitem [ref=e96]: 用标签（给任务添加的特征标记，可用于筛选）标记优先级、场景或协作对象。
+          - listitem [ref=e97]: 用四象限视图（按重要程度和紧急程度划分任务的视图）判断处理顺序。
+          - listitem [ref=e98]: 用日历视图查看有时间安排的任务。
+          - listitem [ref=e99]: 用提醒、重复任务和子任务处理更复杂的事项。
+        - heading "推荐阅读路径" [level=2] [ref=e100]:
+          - link "推荐阅读路径" [ref=e101] [cursor=pointer]:
+            - /url: "#推荐阅读路径"
+        - table [ref=e102]:
+          - rowgroup [ref=e103]:
+            - row "目标 阅读" [ref=e104]:
+              - columnheader "目标" [ref=e105]
+              - columnheader "阅读" [ref=e106]
+          - rowgroup [ref=e107]:
+            - row "第一次使用待办 任务列表" [ref=e108]:
+              - cell "第一次使用待办" [ref=e109]
+              - cell "任务列表" [ref=e110]:
+                - link "任务列表" [ref=e111] [cursor=pointer]:
+                  - /url: /workbench/todo/task-list.html
+            - row "想知道不同视图怎么选 视图模式" [ref=e112]:
+              - cell "想知道不同视图怎么选" [ref=e113]
+              - cell "视图模式" [ref=e114]:
+                - link "视图模式" [ref=e115] [cursor=pointer]:
+                  - /url: /workbench/todo/view-mode.html
+            - row "任务太多，需要整理 分组、标签与筛选" [ref=e116]:
+              - cell "任务太多，需要整理" [ref=e117]
+              - cell "分组、标签与筛选" [ref=e118]:
+                - link "分组、标签与筛选" [ref=e119] [cursor=pointer]:
+                  - /url: /workbench/todo/group-tag-filter.html
+            - row "有定时、周期或拆分需求 提醒、重复任务与子任务" [ref=e120]:
+              - cell "有定时、周期或拆分需求" [ref=e121]
+              - cell "提醒、重复任务与子任务" [ref=e122]:
+                - link "提醒、重复任务与子任务" [ref=e123] [cursor=pointer]:
+                  - /url: /workbench/todo/remind-repeat-subtask.html
+            - row "想在桌面快速查看任务 待办小组件" [ref=e124]:
+              - cell "想在桌面快速查看任务" [ref=e125]
+              - cell "待办小组件" [ref=e126]:
+                - link "待办小组件" [ref=e127] [cursor=pointer]:
+                  - /url: /workbench/todo/widget.html
+        - heading "功能入口" [level=2] [ref=e128]:
+          - link "功能入口" [ref=e129] [cursor=pointer]:
+            - /url: "#功能入口"
+        - paragraph [ref=e130]: 在优秀待办工作台中，点击左侧菜单的“任务”即可进入待办模块。进入后，页面通常分为两部分：
+        - list [ref=e131]:
+          - listitem [ref=e132]: 左侧：切换系统分类、分组、筛选器、标签、已完成和已删除。
+          - listitem [ref=e133]: 右侧：查看当前任务列表，并创建、编辑或处理任务。
+        - heading "常用分类" [level=2] [ref=e134]:
+          - link "常用分类" [ref=e135] [cursor=pointer]:
+            - /url: "#常用分类"
+        - table [ref=e136]:
+          - rowgroup [ref=e137]:
+            - row "分类 用途" [ref=e138]:
+              - columnheader "分类" [ref=e139]
+              - columnheader "用途" [ref=e140]
+          - rowgroup [ref=e141]:
+            - row "全部 查看当前所有任务。" [ref=e142]:
+              - cell "全部" [ref=e143]
+              - cell "查看当前所有任务。" [ref=e144]
+            - row "今天 查看当天时间范围内的任务。" [ref=e145]:
+              - cell "今天" [ref=e146]
+              - cell "查看当天时间范围内的任务。" [ref=e147]
+            - row "三日规 查看三日前后范围内的任务，适合短期回顾和安排。" [ref=e148]:
+              - cell "三日规" [ref=e149]
+              - cell "查看三日前后范围内的任务，适合短期回顾和安排。" [ref=e150]
+            - row "未分组 查看还没有归入具体分组的任务。" [ref=e151]:
+              - cell "未分组" [ref=e152]
+              - cell "查看还没有归入具体分组的任务。" [ref=e153]
+            - row "已完成 回顾已经完成的任务。" [ref=e154]:
+              - cell "已完成" [ref=e155]
+              - cell "回顾已经完成的任务。" [ref=e156]
+            - row "已删除 查看删除后的任务，适合处理误删场景。" [ref=e157]:
+              - cell "已删除" [ref=e158]
+              - cell "查看删除后的任务，适合处理误删场景。" [ref=e159]
+        - generic [ref=e160]:
+          - paragraph [ref=e161]: 使用建议
+          - paragraph [ref=e162]: 刚开始使用时，不必先设计完整的分组和标签。可以先把任务记录下来，再在整理时补充分组、标签、提醒和子任务。
+      - link "在 GitHub 上编辑此页" [ref=e165] [cursor=pointer]:
+        - /url: https://github.com/xiaou66/u-plugin-doc/edit/main/src/workbench/todo/README.md
+        - img "edit icon" [ref=e166]
+        - text: 在 GitHub 上编辑此页
+      - navigation [ref=e170]:
+        - link "优秀待办" [ref=e171] [cursor=pointer]:
+          - /url: /workbench/
+          - generic [ref=e172]: 上一页
+          - generic [ref=e174]: 优秀待办
+        - link "任务列表" [ref=e175] [cursor=pointer]:
+          - /url: /workbench/todo/task-list.html
+          - generic [ref=e176]: 下一页
+          - generic [ref=e178]: 任务列表

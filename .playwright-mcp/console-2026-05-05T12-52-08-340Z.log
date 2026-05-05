@@ -1,0 +1,463 @@
+[     677ms] [LOG] [uTodo MCP] registerTool is unavailable in current runtime @ http://127.0.0.1:4100/src/mcp/index.ts:8
+[     678ms] [LOG] [IpcBridge] 初始化完成, webContentsId: 0 @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:48
+[     678ms] [LOG] [IpcBridge] 注册 API: ping @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[     678ms] [LOG] [IpcBridge] 注册 API: stickyNote:widgetChanged @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[     678ms] [LOG] [IpcBridge] 注册 API: stickyNote:createWindow @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[     786ms] [LOG] mediaQueryList MediaQueryList @ http://127.0.0.1:4100/src/hooks/useTheme.ts:34
+[     787ms] [LOG] isMainWindow() true @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:177
+[     788ms] [LOG] [Adapter] 检测到 UTools 环境，使用 UtoolsAdapter @ http://127.0.0.1:4100/src/core/adapter/index.ts:12
+[     788ms] [LOG] [SyncManager] 开始初始化同步系统... @ http://127.0.0.1:4100/src/core/sync/SyncManager.ts:37
+[     788ms] [LOG] [SyncManager] 开始从远程拉取数据... @ http://127.0.0.1:4100/src/core/sync/SyncManager.ts:54
+[     788ms] [LOG] [UtoolsAdapter] 拉取 tasks: 0 条 @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:106
+[     791ms] [LOG] %c[code-inspector-plugin]
+%c• Press and hold %cshift %c+ %c⌥option %cto use the feature.
+• Press %cshift %c+ %c⌥option %c+ %cZ %cto see and change feature.
+• Current Feature: %cLocate Code color: #006aff; font-weight: bolder; font-size: 12px; color: #00B42A; font-family: PingFang SC; font-size: 12px; color: #006aff; font-weight: bold; font-family: PingFang SC; font-size: 12px; color: #00B42A; font-family: PingFang SC; font-size: 12px; color: #006aff; font-weight: bold; font-family: PingFang SC; font-size: 12px; color: #00B42A; font-family: PingFang SC; font-size: 12px; color: #006aff; font-weight: bold; font-family: PingFang SC; font-size: 12px; color: #00B42A; font-family: PingFang SC; font-size: 12px; color: #006aff; font-weight: bold; font-family: PingFang SC; font-size: 12px; color: #00B42A; font-family: PingFang SC; font-size: 12px; color: #006aff; font-weight: bold; font-family: PingFang SC; font-size: 12px; color: #00B42A; font-family: PingFang SC; font-size: 12px; color: #006aff; font-weight: bold; font-family: PingFang SC; font-size: 12px; @ http://127.0.0.1:4100/src/main.ts:1477
+[     791ms] [LOG] [UtoolsAdapter] 拉取 groups: 0 条 @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:106
+[     792ms] [LOG] trackEvent {id: 未登录, website: d7da0d68-cefd-4327-a130-abf5374d69e9, url: #/taskList, userAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Ap…KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36, device: desktop} @ http://127.0.0.1:4100/src/utils/umami/UmamiUtoolsClient.ts:48
+[     792ms] [LOG] [UtoolsAdapter] 拉取 tags: 0 条 @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:106
+[     792ms] [LOG] trackEvent {id: 未登录, website: d7da0d68-cefd-4327-a130-abf5374d69e9, url: #/taskList, userAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Ap…KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36, device: desktop} @ http://127.0.0.1:4100/src/utils/umami/UmamiUtoolsClient.ts:48
+[     792ms] [LOG] [UtoolsAdapter] 拉取 flows: 0 条 @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:106
+[     792ms] [LOG] [UtoolsAdapter] 拉取 taskDescriptions: 0 条 @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:106
+[     793ms] [LOG] [UtoolsAdapter] 拉取 aiPrompts: 0 条 @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:106
+[     793ms] [LOG] [UtoolsAdapter] 拉取 taskFilters: 0 条 @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:106
+[     793ms] [LOG] trackEvent {id: 未登录, website: d7da0d68-cefd-4327-a130-abf5374d69e9, url: /taskList, userAgent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) Ap…KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36, device: desktop} @ http://127.0.0.1:4100/src/utils/umami/UmamiUtoolsClient.ts:48
+[     793ms] [LOG] [UtoolsAdapter] 拉取 stickyNotes: 0 条 @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:106
+[     793ms] [LOG] [UtoolsAdapter] 拉取 bookmarks: 0 条 @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:106
+[     793ms] [LOG] [UtoolsAdapter] 拉取 bookmarkTags: 0 条 @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:106
+[     793ms] [LOG] [UtoolsAdapter] 拉取 launcherTags: 0 条 @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:106
+[     793ms] [LOG] [UtoolsAdapter] 拉取 bookmarkDetails: 0 条 @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:106
+[     793ms] [LOG] [UtoolsAdapter] 拉取 bookmarkSites: 0 条 @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:106
+[     793ms] [LOG] [UtoolsAdapter] 拉取 notebookFolders: 0 条 @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:106
+[     793ms] [LOG] [UtoolsAdapter] 拉取 notebookNotes: 0 条 @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:106
+[     793ms] [LOG] [UtoolsAdapter] 拉取 userConfig: 0 条 @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:106
+[     793ms] [LOG] [UtoolsAdapter] 拉取 localStorage: 0 条 @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:106
+[     793ms] [LOG] [SyncManager] 远程数据拉取完成 @ http://127.0.0.1:4100/src/core/sync/SyncManager.ts:140
+[     793ms] [LOG] [UtoolsAdapter] 已注册远程变更监听 @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:126
+[     793ms] [LOG] [SyncManager] 已注册远程变更监听 @ http://127.0.0.1:4100/src/core/sync/SyncManager.ts:150
+[     793ms] [LOG] [SyncManager] 同步系统初始化完成 @ http://127.0.0.1:4100/src/core/sync/SyncManager.ts:43
+[    1013ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1014ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1014ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1014ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1014ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1014ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1014ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1014ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1014ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1014ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1014ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1014ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1014ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1014ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1020ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.saveTask @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.fillDefaultDuplicateGroupId @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.updateTask @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.restartTask @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.saveTaskDesc @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.getTaskDesc @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.getTaskDescItem @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.getTask @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.handleSearchListTaskParams @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.listTaskBatch @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.listTask @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.rebuildSort @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.cleanAllDeleteTask @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.completelyDeleteTask @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.cleanErrorTask @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.getSubtasks @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.getAllDescendants @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.addSubtask @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.removeSubtask @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.reorderSubtasks @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.moveSubTaskWithinTask @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.syncParentCompletion @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.detachSubtask @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.copyTask @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.calculateNextDuplicateTime @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.addByDuplicateType @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.task.getPendingRemindTasks @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.group.createGroup @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.group.saveGroup @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.group.saveGroupInner @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.group.listGroup @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.group.getGroup @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.group.saveTaskTag @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.group.getTaskStatusList @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.group.getFinishTaskStatus @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.group.deleteGroup @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.group.createFolder @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.group.moveGroupToFolder @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.group.reorderGroup @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.group.listGroupTree @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.group.addToFolderChildren @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] [IpcBridge] 注册 API: service.group.removeFromFolderChildren @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1020ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.localStorage.setData @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.localStorage.getData @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.localStorage.removeData @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.localStorage.initCache @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.localStorage.listDataByPrefix @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.configStorage.getData @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.configStorage.listDataByPrefix @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.configStorage.setData @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.configStorage.removeData @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.configStorage.initCache @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.taskTag.createTag @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.taskTag.saveTag @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.taskTag.saveTagInner @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.taskTag.listTag @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.taskTag.getTag @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.taskTag.getTagById @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.taskTag.mergeTag @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.taskTag.deleteTag @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.taskTag.updateTaskItemTag @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.taskTag.listTagTree @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.taskTag.moveTagToParent @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.taskTag.reorderTag @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.taskTag.addToParentChildren @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.taskTag.removeFromParentChildren @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.ai.getPromptList @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.ai.initData @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.ai.savePrompt @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.ai.deletePrompt @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.taskFilter.saveTaskFilter @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.taskFilter.getTaskFilterList @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.taskFilter.deleteTaskFilter @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.flow.saveFlow @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.flow.getFlow @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.flow.getFlowList @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.flow.deleteFlow @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.flow.importFlow @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.stickyNote.getRandomColorKey @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.stickyNote.listNotes @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.stickyNote.findById @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.stickyNote.createNote @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.stickyNote.updateNote @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.stickyNote.saveNote @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.stickyNote.removeNote @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.stickyNote.reorder @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.stickyNote.searchNotes @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.resolveTagIds @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.saveBookmark @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.assertBookmarkUrlAvailable @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.importBookmarks @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.rebuildSort @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.listBookmark @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.reorderBookmark @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.saveRebuiltReorderBookmarks @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.listBookmarkBySelection @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.listStarBookmark @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.collectSelectionTagIds @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.getBookmark @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.getBookmarkByUrl @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.deleteBookmarkResources @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.deleteBookmark @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.removeTagsFromBookmarks @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.deleteBookmarksByTagIds @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.deleteBookmarks @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.moveBookmarksToTags @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.updateBookmarksFlags @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.saveBookmarkDetail @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.getBookmarkDetail @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] [IpcBridge] 注册 API: service.bookmark.deleteBookmarkDetail @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1021ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1022ms] [LOG] [IpcBridge] 注册 API: service.bookmarkTag.createTag @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1022ms] [LOG] [IpcBridge] 注册 API: service.bookmarkTag.saveTag @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1022ms] [LOG] [IpcBridge] 注册 API: service.bookmarkTag.listTag @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1022ms] [LOG] [IpcBridge] 注册 API: service.bookmarkTag.flatListTag @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1022ms] [LOG] [IpcBridge] 注册 API: service.bookmarkTag.existTagById @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1022ms] [LOG] [IpcBridge] 注册 API: service.bookmarkTag.deleteTag @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1022ms] [LOG] [IpcBridge] 注册 API: service.bookmarkTag.deleteTagCascade @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1022ms] [LOG] [IpcBridge] 注册 API: service.bookmarkTag.collectDescendantIds @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1022ms] [LOG] [IpcBridge] 注册 API: service.bookmarkTag.buildTree @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1022ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1022ms] [LOG] [IpcBridge] 注册 API: service.bookmarkSite.listSites @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1022ms] [LOG] [IpcBridge] 注册 API: service.bookmarkSite.getSite @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1022ms] [LOG] [IpcBridge] 注册 API: service.bookmarkSite.getSiteByUrl @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1022ms] [LOG] [IpcBridge] 注册 API: service.bookmarkSite.saveSite @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1022ms] [LOG] [IpcBridge] 注册 API: service.bookmarkSite.updateSiteAuth @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1022ms] [LOG] [IpcBridge] 注册 API: service.bookmarkSite.deleteSite @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1022ms] [LOG] [IpcBridge] 注册 API: service.bookmarkSite.normalizeSiteDomain @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1022ms] [LOG] [IpcBridge] 注册 API: service.bookmarkSite.normalizeSiteUrl @ http://127.0.0.1:4100/src/window/ipc/IpcBridge.ts:67
+[    1022ms] [LOG] [ServiceIpcRegistry] 已注册所有 Service API @ http://127.0.0.1:4100/src/core/proxy/ServiceIpcRegistry.ts:33
+[    1022ms] [LOG] [ExtensionManager] 已注册 14 个 Service @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:196
+[    1022ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1022ms] [LOG] [TaskService] 开始重建排序 sort @ http://127.0.0.1:4100/src/core/service/TasksServiceImpl.ts:325
+[    1022ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1022ms] [LOG] [BookmarkService] 开始重建排序 sort @ http://127.0.0.1:4100/src/core/service/BookmarkServiceImpl.ts:133
+[    1022ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1023ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1023ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1023ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1023ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1027ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1027ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1032ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1033ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1033ms] [LOG] useKeyBoard GLOBAL_SEARCH @ http://127.0.0.1:4100/src/keyboard/useKeyBoard.ts:27
+[    1036ms] [LOG] useKeyBoard TODO_TOGGLE_SIDEBAR @ http://127.0.0.1:4100/src/keyboard/useKeyBoard.ts:27
+[    1040ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1040ms] [LOG] menuList [Object, Object, Object, Object] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    1040ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1040ms] [LOG] listTask {} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    1040ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1040ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    1041ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1041ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777651200000, taskEndTime: 1778255999999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    1041ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1041ms] [LOG] listTask {groupId: collectBox} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    1041ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1041ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1041ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1042ms] [LOG] menuList [Object, Object] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    1099ms] [LOG] groupMap {} @ http://127.0.0.1:4100/src/views/GroupDetail/templates/TaskViewLayer/TaskViewLayer.ts:8
+[    1099ms] [LOG] initPluginStatus true @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskViewSuspendMenu.vue:34
+[    1099ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1104ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1106ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1106ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1108ms] [LOG] hasShiftEnterListener true @ http://127.0.0.1:4100/src/components/Tasks/TaskCreateInputV2/TaskCreateInputEditor.vue:68
+[    1124ms] [LOG] useInjectedSelectionScope {scope: taskMultiple, keyField: taskId, enterMode: manual, toolItems: Array(4)} @ http://127.0.0.1:4100/src/components/common/MultipleContainer/store/ISelectionScopeContext.ts:11
+[    1124ms] [LOG] useInjectedSelectionScope {scope: taskMultiple, keyField: taskId, enterMode: manual, toolItems: Array(4)} @ http://127.0.0.1:4100/src/components/common/MultipleContainer/store/ISelectionScopeContext.ts:11
+[    1130ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1130ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1136ms] [LOG] [TaskCreateInputV2] onMounted Proxy(Object) @ http://127.0.0.1:4100/src/components/Tasks/TaskCreateInputV2/TaskCreateInputV2.vue:381
+[    1137ms] [LOG] [TaskCreateInputV2] task {taskStartDate: 2026-05-05} @ http://127.0.0.1:4100/src/components/Tasks/TaskCreateInputV2/TaskCreateInputV2.vue:306
+[    1138ms] [LOG] [TaskCreateInputV2]---initEditor--defaultValue Proxy(Object) @ http://127.0.0.1:4100/src/components/Tasks/TaskCreateInputV2/TaskCreateInputV2.vue:356
+[    1139ms] [WARNING] You have already registered a [element] dropTarget on the same element {existing: Object, proposed: Object} @ http://127.0.0.1:4100/src/main.ts:25
+[    1139ms] [WARNING] You have already registered a [element] dropTarget on the same element {existing: Object, proposed: Object} @ http://127.0.0.1:4100/src/main.ts:25
+[    1139ms] [WARNING] You have already registered a [element] dropTarget on the same element {existing: Object, proposed: Object} @ http://127.0.0.1:4100/src/main.ts:25
+[    1147ms] [LOG] taskView-refreshData-taskList-start {taskTimeRange: Array(2)} @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:195
+[    1147ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1147ms] [LOG] taskview-refreshData {taskTimeRange: Array(2)} @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:201
+[    1147ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    1148ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1148ms] [LOG] listTask {taskTimeRange: Array(2), searchType: finish, taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    1148ms] [LOG] 🍍 "__internal_selection__" store installed 🆕 @ http://127.0.0.1:4100/node_modules/.vite/deps/pinia.js?v=cb250e1a:4621
+[    1226ms] [LOG] [IndexedDB] 升级数据库: v0 -> v11 @ http://127.0.0.1:4100/src/core/db/index.ts:47
+[    1231ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    1232ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    1232ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    1232ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    1232ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1232ms] [LOG] listTask {} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    1232ms] [LOG] [GroupButtonSelect] loadGroupTree 1 @ http://127.0.0.1:4100/src/components/Tasks/TaskGroupSelect/GroupButtonSelect.vue:68
+[    1236ms] [LOG] [TaskTagSelect] loadTagTree 0 @ http://127.0.0.1:4100/src/components/Tasks/TaskTagSelect/TaskTagSelect.vue:57
+[    1237ms] [LOG] taskView-refreshData-taskList-end Proxy(Array) @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:210
+[    1238ms] [LOG] groupMap {} @ http://127.0.0.1:4100/src/views/GroupDetail/templates/TaskViewLayer/TaskViewLayer.ts:8
+[    1239ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    1239ms] [LOG] [UtoolsAdapter] 同步数据: local/systemGroup/viewConfig/toDay @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:38
+[    1239ms] [LOG] [UtoolsAdapter] 同步数据: local/systemGroup/viewMode/toDay @ http://127.0.0.1:4100/src/core/adapter/UtoolsAdapter.ts:38
+[    1242ms] [ERROR] Access to fetch at 'https://cloud.on-u.cn/app/base/info/holidayData?year=2026' from origin 'http://127.0.0.1:4100' has been blocked by CORS policy: Response to preflight request doesn't pass access control check: No 'Access-Control-Allow-Origin' header is present on the requested resource. @ http://127.0.0.1:4100/#/taskList:0
+[    1243ms] [ERROR] Failed to load resource: net::ERR_FAILED @ https://cloud.on-u.cn/app/base/info/holidayData?year=2026:0
+[    1243ms] [WARNING] [useHolidayData] 加载假期数据失败: 2026 TypeError: Failed to fetch
+    at Object.getHolidayData (http://127.0.0.1:4100/src/api/ucloud/SysBaseApi.ts:6:16)
+    at loadYear (http://127.0.0.1:4100/src/hooks/useHolidayData.ts:58:37)
+    at loadForMonth (http://127.0.0.1:4100/src/hooks/useHolidayData.ts:70:5)
+    at useHolidayDataProvider (http://127.0.0.1:4100/src/hooks/useHolidayData.ts:75:3)
+    at provideHolidayData (http://127.0.0.1:4100/src/hooks/useHolidayData.ts:94:20)
+    at setup (http://127.0.0.1:4100/src/App.vue:34:5)
+    at callWithErrorHandling (http://127.0.0.1:4100/node_modules/.vite/deps/chunk-UAHYXMYM.js?v=cb250e1a:2351:19)
+    at setupStatefulComponent (http://127.0.0.1:4100/node_modules/.vite/deps/chunk-UAHYXMYM.js?v=cb250e1a:10260:25)
+    at setupComponent (http://127.0.0.1:4100/node_modules/.vite/deps/chunk-UAHYXMYM.js?v=cb250e1a:10222:36)
+    at mountComponent (http://127.0.0.1:4100/node_modules/.vite/deps/chunk-UAHYXMYM.js?v=cb250e1a:8162:7) @ http://127.0.0.1:4100/src/main.ts:25
+[    3584ms] [LOG] [appBus] task::refresh {detail: Object, meta: Object} @ http://127.0.0.1:4100/src/events/eventBus.ts:8
+[    3584ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    3584ms] [LOG] listTask {} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    3584ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    3584ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    3585ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    3585ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777651200000, taskEndTime: 1778255999999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    3585ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    3585ms] [LOG] listTask {groupId: collectBox} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    3585ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    3585ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    3585ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    3585ms] [LOG] taskView-refreshData-taskList-start {taskTimeRange: Array(2)} @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:195
+[    3585ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    3585ms] [LOG] taskview-refreshData {taskTimeRange: Array(2)} @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:201
+[    3585ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    3586ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    3586ms] [LOG] listTask {taskTimeRange: Array(2), searchType: finish, taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    3588ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    3589ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    3589ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    3589ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    3589ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    3589ms] [LOG] listTask {} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    3590ms] [LOG] taskView-refreshData-taskList-end Proxy(Array) @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:210
+[    3591ms] [LOG] groupMap {} @ http://127.0.0.1:4100/src/views/GroupDetail/templates/TaskViewLayer/TaskViewLayer.ts:8
+[    3594ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    4502ms] [LOG] [appBus] task::refresh {detail: Object, meta: Object} @ http://127.0.0.1:4100/src/events/eventBus.ts:8
+[    4502ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    4502ms] [LOG] listTask {} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    4503ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    4503ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    4503ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    4503ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777651200000, taskEndTime: 1778255999999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    4503ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    4503ms] [LOG] listTask {groupId: collectBox} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    4503ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    4503ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    4503ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    4504ms] [LOG] taskView-refreshData-taskList-start {taskTimeRange: Array(2)} @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:195
+[    4504ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    4504ms] [LOG] taskview-refreshData {taskTimeRange: Array(2)} @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:201
+[    4504ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    4504ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    4504ms] [LOG] listTask {taskTimeRange: Array(2), searchType: finish, taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    4505ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    4505ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    4506ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    4506ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    4506ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    4506ms] [LOG] listTask {} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    4506ms] [LOG] taskView-refreshData-taskList-end Proxy(Array) @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:210
+[    4507ms] [LOG] groupMap {} @ http://127.0.0.1:4100/src/views/GroupDetail/templates/TaskViewLayer/TaskViewLayer.ts:8
+[    4509ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    5383ms] [LOG] [appBus] task::refresh {detail: Object, meta: Object} @ http://127.0.0.1:4100/src/events/eventBus.ts:8
+[    5383ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    5383ms] [LOG] listTask {} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    5383ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    5383ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    5383ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    5383ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777651200000, taskEndTime: 1778255999999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    5383ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    5383ms] [LOG] listTask {groupId: collectBox} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    5384ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    5384ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    5384ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    5384ms] [LOG] taskView-refreshData-taskList-start {taskTimeRange: Array(2)} @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:195
+[    5384ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    5384ms] [LOG] taskview-refreshData {taskTimeRange: Array(2)} @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:201
+[    5384ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    5384ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    5384ms] [LOG] listTask {taskTimeRange: Array(2), searchType: finish, taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    5386ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    5386ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    5386ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    5386ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    5387ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    5387ms] [LOG] listTask {} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    5387ms] [LOG] taskView-refreshData-taskList-end Proxy(Array) @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:210
+[    5388ms] [LOG] groupMap {} @ http://127.0.0.1:4100/src/views/GroupDetail/templates/TaskViewLayer/TaskViewLayer.ts:8
+[    5389ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    7874ms] [LOG] [appBus] task::refresh {detail: Object, meta: Object} @ http://127.0.0.1:4100/src/events/eventBus.ts:8
+[    7874ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    7874ms] [LOG] listTask {} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    7874ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    7874ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    7874ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    7874ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777651200000, taskEndTime: 1778255999999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    7874ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    7874ms] [LOG] listTask {groupId: collectBox} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    7874ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    7874ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    7874ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    7875ms] [LOG] taskView-refreshData-taskList-start {taskTimeRange: Array(2)} @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:195
+[    7875ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    7875ms] [LOG] taskview-refreshData {taskTimeRange: Array(2)} @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:201
+[    7875ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    7875ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    7875ms] [LOG] listTask {taskTimeRange: Array(2), searchType: finish, taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    7876ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    7876ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    7876ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    7876ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    7876ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    7876ms] [LOG] listTask {} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    7877ms] [LOG] taskView-refreshData-taskList-end Proxy(Array) @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:210
+[    7877ms] [LOG] groupMap {} @ http://127.0.0.1:4100/src/views/GroupDetail/templates/TaskViewLayer/TaskViewLayer.ts:8
+[    7878ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    8891ms] [LOG] [appBus] task::refresh {detail: Object, meta: Object} @ http://127.0.0.1:4100/src/events/eventBus.ts:8
+[    8891ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    8891ms] [LOG] listTask {} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    8891ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    8891ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    8892ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    8892ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777651200000, taskEndTime: 1778255999999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    8892ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    8892ms] [LOG] listTask {groupId: collectBox} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    8892ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    8892ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    8892ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    8892ms] [LOG] taskView-refreshData-taskList-start {taskTimeRange: Array(2)} @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:195
+[    8892ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    8892ms] [LOG] taskview-refreshData {taskTimeRange: Array(2)} @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:201
+[    8892ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    8892ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    8892ms] [LOG] listTask {taskTimeRange: Array(2), searchType: finish, taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    8893ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    8894ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    8894ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    8894ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[    8894ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[    8894ms] [LOG] listTask {} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[    8894ms] [LOG] taskView-refreshData-taskList-end Proxy(Array) @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:210
+[    8895ms] [LOG] groupMap {} @ http://127.0.0.1:4100/src/views/GroupDetail/templates/TaskViewLayer/TaskViewLayer.ts:8
+[    8896ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   28068ms] [LOG] [appBus] task::refresh {detail: Object, meta: Object} @ http://127.0.0.1:4100/src/events/eventBus.ts:8
+[   28068ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   28068ms] [LOG] listTask {} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[   28068ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   28068ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[   28068ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   28068ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777651200000, taskEndTime: 1778255999999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[   28068ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   28068ms] [LOG] listTask {groupId: collectBox} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[   28068ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   28068ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   28068ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   28068ms] [LOG] taskView-refreshData-taskList-start {taskTimeRange: Array(2)} @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:195
+[   28068ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   28068ms] [LOG] taskview-refreshData {taskTimeRange: Array(2)} @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:201
+[   28068ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[   28068ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   28068ms] [LOG] listTask {taskTimeRange: Array(2), searchType: finish, taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[   28070ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[   28070ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[   28070ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[   28070ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[   28070ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   28070ms] [LOG] listTask {} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[   28070ms] [LOG] taskView-refreshData-taskList-end Proxy(Array) @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:210
+[   28071ms] [LOG] groupMap {} @ http://127.0.0.1:4100/src/views/GroupDetail/templates/TaskViewLayer/TaskViewLayer.ts:8
+[   28073ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   34903ms] [LOG] [appBus] task::refresh {detail: Object, meta: Object} @ http://127.0.0.1:4100/src/events/eventBus.ts:8
+[   34903ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   34903ms] [LOG] listTask {} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[   34903ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   34903ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[   34903ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   34903ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777651200000, taskEndTime: 1778255999999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[   34903ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   34903ms] [LOG] listTask {groupId: collectBox} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[   34903ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   34904ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   34904ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   34904ms] [LOG] taskView-refreshData-taskList-start {taskTimeRange: Array(2)} @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:195
+[   34904ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   34904ms] [LOG] taskview-refreshData {taskTimeRange: Array(2)} @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:201
+[   34904ms] [LOG] listTask {taskTimeRange: Array(2), taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[   34904ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   34904ms] [LOG] listTask {taskTimeRange: Array(2), searchType: finish, taskStartTime: 1777910400000, taskEndTime: 1777996799999} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[   34905ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[   34906ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[   34906ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[   34906ms] [LOG] menuList [] @ http://127.0.0.1:4100/src/views/TaskList/TaskList.vue:43
+[   34906ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[   34906ms] [LOG] listTask {} @ http://127.0.0.1:4100/src/core/repository/TaskRepository.ts:50
+[   34906ms] [LOG] taskView-refreshData-taskList-end Proxy(Array) @ http://127.0.0.1:4100/src/components/Tasks/TaskView/TaskView.vue:210
+[   34907ms] [LOG] groupMap {} @ http://127.0.0.1:4100/src/views/GroupDetail/templates/TaskViewLayer/TaskViewLayer.ts:8
+[   34908ms] [LOG] 11111 @ http://127.0.0.1:4100/src/core/ExtensionManager.ts:65
+[  297836ms] [LOG] [vite] server connection lost. Polling for restart... @ http://127.0.0.1:4100/@vite/client:864
